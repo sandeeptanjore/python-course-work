@@ -5,8 +5,20 @@ if (year_entered%100==0):
    if (year_entered%400==0):
       print(year_entered, ' is a leap year')
    else:
-      print(year_entered, ' is a not leap year')
+      print(year_entered, ' 1 - is a not leap year')
 elif (year_entered%4==0):
    print(year_entered, ' is a leap year')
 else:
-   print(year_entered, ' is a not leap year')   
+   print(year_entered, ' 2- is a not leap year')   
+
+
+# if(year_entered%100==0 and year_entered%400==0):
+#    print('It is a leap year')
+# elif (year_entered%100==0 and year_entered%400!=0):
+#    print('It is not a leap year')
+# elif(year_entered%4==0):
+#    print('It is a leap year')
+# else:
+#    print("It is not a leap year")
+
+
