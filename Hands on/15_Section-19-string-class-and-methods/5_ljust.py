@@ -11,3 +11,6 @@ print(x)
 
 x= s.zfill(10) # zero filling = fills 0 on lhs
 print(x)
+
+z = s.zfill(7)
+print(z)
