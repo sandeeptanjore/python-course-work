@@ -12,3 +12,10 @@ for inner_list in lists:
        longest_list=inner_list
        
 print(f'The longest list is: {longest_list} and it\'s length is: {longest_list_number}')
+
+# The same challenge demonstrated through List Comprehension:
+# just with 3 lines of code :-) 
+
+max_list = max(lists, key=len)
+print(' ')
+print(f'The longest list is: {max_list})')
